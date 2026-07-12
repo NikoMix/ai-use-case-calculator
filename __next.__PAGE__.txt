@@ -1,7 +1,9 @@
 1:"$Sreact.fragment"
-2:I[96726,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js","/ai-use-case-calculator/_next/static/chunks/3gnl0bp1_09qk.js","/ai-use-case-calculator/_next/static/chunks/3hjbin0kltgub.js"],"TopBar"]
-3:I[95207,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js","/ai-use-case-calculator/_next/static/chunks/3gnl0bp1_09qk.js","/ai-use-case-calculator/_next/static/chunks/3hjbin0kltgub.js"],"CalculatorApp"]
-4:I[97367,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"page","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"shell footer-inner","children":[["$","span",null,{"children":"AI Use Case Estimator · Static, client-side planning tool"}],["$","span",null,{"children":"Inspired by Fluent UI and Microsoft Partner resource styling · Not an Azure billing quote"}]]}]}]]}],[["$","script","script-0",{"src":"/ai-use-case-calculator/_next/static/chunks/3gnl0bp1_09qk.js","async":true}],["$","script","script-1",{"src":"/ai-use-case-calculator/_next/static/chunks/3hjbin0kltgub.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"akRW0wfmFoZm92kLV7rFN"}
-6:null
+2:I[47257,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js"],"ClientPageRoot"]
+3:I[31713,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js","/ai-use-case-calculator/_next/static/chunks/2oy2l1lqcsqov.js","/ai-use-case-calculator/_next/static/chunks/0fqpinzlyfmgr.js"],"default"]
+6:I[97367,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/ai-use-case-calculator/_next/static/chunks/2oy2l1lqcsqov.js","async":true}],["$","script","script-1",{"src":"/ai-use-case-calculator/_next/static/chunks/0fqpinzlyfmgr.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"RfwiRREaMz5tILZ9_VQK-"}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null

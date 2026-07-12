@@ -1,2 +1,2 @@
-:HL["/ai-use-case-calculator/_next/static/chunks/33bh2p8_a6jvr.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"akRW0wfmFoZm92kLV7rFN"}
+:HL["/ai-use-case-calculator/_next/static/chunks/1mz2ohwx3f6fg.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"RfwiRREaMz5tILZ9_VQK-"}

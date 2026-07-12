@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "source": "Azure Retail Prices API",
+  "sourceUrl": "https://prices.azure.com/api/retail/prices?api-version=2023-01-01-preview&%24filter=serviceName+eq+%27Foundry+Models%27+and+armRegionName+eq+%27eastus%27+and+priceType+eq+%27Consumption%27+and+contains%28productName%2C+%27OpenAI%27%29",
+  "region": {
+    "id": "eastus",
+    "label": "East US"
+  },
+  "currencyCode": "USD",
+  "fetchedAt": "2026-07-12T13:23:52.625Z",
+  "itemCount": 985,
+  "prices": {
+    "global": [
+      {
+        "modelId": "gpt-5.5-chat",
+        "inputPrice": 5,
+        "cachedInputPrice": 0.5,
+        "outputPrice": 30,
+        "inputMeterName": "chat-latest 05282026 inp Gl 1M Tokens",
+        "cachedInputMeterName": "chat-latest 05282026 cd inp Gl 1M Tokens",
+        "outputMeterName": "chat-latest 05282026 opt Gl 1M Tokens",
+        "effectiveStartDate": "2026-06-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.4",
+        "inputPrice": 2.5,
+        "cachedInputPrice": 0.25,
+        "outputPrice": 15,
+        "inputMeterName": "5.4 inp Gl 1M Tokens",
+        "cachedInputMeterName": "5.4 cd inp Gl 1M Tokens",
+        "outputMeterName": "5.4 opt Gl 1M Tokens",
+        "effectiveStartDate": "2026-03-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.4-mini",
+        "inputPrice": 0.75,
+        "cachedInputPrice": 0.075,
+        "outputPrice": 4.5,
+        "inputMeterName": "5.4 mini Inp Gl 1M Tokens",
+        "cachedInputMeterName": "5.4 mini cd Inp Gl 1M Tokens",
+        "outputMeterName": "5.4 mini Opt Gl 1M Tokens",
+        "effectiveStartDate": "2026-03-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.4-nano",
+        "inputPrice": 0.2,
+        "cachedInputPrice": 0.02,
+        "outputPrice": 1.25,
+        "inputMeterName": "5.4 nano Inp Gl 1M Tokens",
+        "cachedInputMeterName": "5.4 nano cd Inp Gl 1M Tokens",
+        "outputMeterName": "5.4 nano Opt Gl 1M Tokens",
+        "effectiveStartDate": "2026-03-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.2",
+        "inputPrice": 1.75,
+        "cachedInputPrice": 0.175,
+        "outputPrice": 14,
+        "inputMeterName": "GPT 5.2 inp Gl 1M Tokens",
+        "cachedInputMeterName": "GPT 5.2 cd inp Gl 1M Tokens",
+        "outputMeterName": "GPT 5.2 opt Gl 1M Tokens",
+        "effectiveStartDate": "2025-12-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.1",
+        "inputPrice": 1.25,
+        "cachedInputPrice": 0.125,
+        "outputPrice": 10,
+        "inputMeterName": "GPT 5.1 inp Gl 1M Tokens",
+        "cachedInputMeterName": "GPT 5.1 cd inp Gl 1M Tokens",
+        "outputMeterName": "GPT 5.1 opt Gl 1M Tokens",
+        "effectiveStartDate": "2025-11-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5-mini",
+        "inputPrice": 0.25,
+        "cachedInputPrice": 0.025,
+        "outputPrice": 2,
+        "inputMeterName": "GPT 5 Mini Inpt Glbl 1M Tokens",
+        "cachedInputMeterName": "GPT 5 Mini cchd Inpt Glbl 1M Tokens",
+        "outputMeterName": "GPT 5 Mini outpt Glbl 1M Tokens",
+        "effectiveStartDate": "2025-08-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1",
+        "inputPrice": 2,
+        "cachedInputPrice": 0.5,
+        "outputPrice": 8,
+        "inputMeterName": "gpt 4.1 Inp glbl Tokens",
+        "cachedInputMeterName": "gpt 4.1 cached Inp glbl Tokens",
+        "outputMeterName": "gpt 4.1 Outp glbl Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1-mini",
+        "inputPrice": 0.4,
+        "cachedInputPrice": 0.1,
+        "outputPrice": 1.6,
+        "inputMeterName": "gpt 4.1 mini Inp glbl Tokens",
+        "cachedInputMeterName": "gpt 4.1 mini cached Inp glbl Tokens",
+        "outputMeterName": "gpt 4.1 mini Outp glbl Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1-nano",
+        "inputPrice": 0.1,
+        "cachedInputPrice": 0.025,
+        "outputPrice": 0.4,
+        "inputMeterName": "gpt 4.1 nano Inp glbl Tokens",
+        "cachedInputMeterName": "gpt 4.1 nano cached Inp glbl Tokens",
+        "outputMeterName": "gpt 4.1 nano Outp glbl Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4o",
+        "inputPrice": 2.5,
+        "cachedInputPrice": 1.25,
+        "outputPrice": 10,
+        "inputMeterName": "gpt 4o 1120 Inp glbl Tokens",
+        "cachedInputMeterName": "gpt 4o 1120 cached Inp glbl Tokens",
+        "outputMeterName": "gpt 4o 1120 Outp glbl Tokens",
+        "effectiveStartDate": "2024-12-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4o-mini",
+        "inputPrice": 0.15,
+        "cachedInputPrice": 0.075,
+        "outputPrice": 0.6,
+        "inputMeterName": "gpt-4o-mini-0718-Inp-glbl Tokens",
+        "cachedInputMeterName": "gpt 4o mini 0718 cached Inp glbl Tokens",
+        "outputMeterName": "gpt-4o-mini-0718-Outp-glbl Tokens",
+        "effectiveStartDate": "2024-10-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "o3",
+        "inputPrice": 2,
+        "cachedInputPrice": 0.5,
+        "outputPrice": 8,
+        "inputMeterName": "o3 0416 Inp glbl Tokens",
+        "cachedInputMeterName": "o3 0416 cached Inp glbl Tokens",
+        "outputMeterName": "o3 0416 Outp glbl Tokens",
+        "effectiveStartDate": "2025-06-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "o4-mini",
+        "inputPrice": 1.1,
+        "cachedInputPrice": 0.275,
+        "outputPrice": 4.4,
+        "inputMeterName": "o4-mini 0416 Inp glbl Tokens",
+        "cachedInputMeterName": "o4-mini 0416 cached Inp glbl Tokens",
+        "outputMeterName": "o4-mini 0416 Outp glbl Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      }
+    ],
+    "data-zone": [
+      {
+        "modelId": "gpt-5.4",
+        "inputPrice": 2.75,
+        "cachedInputPrice": 0.275,
+        "outputPrice": 16.5,
+        "inputMeterName": "5.4 inp Dz 1M Tokens",
+        "cachedInputMeterName": "5.4 cd inp Dz 1M Tokens",
+        "outputMeterName": "5.4 opt Dz 1M Tokens",
+        "effectiveStartDate": "2026-03-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.4-mini",
+        "inputPrice": 0.825,
+        "cachedInputPrice": 0.0825,
+        "outputPrice": 4.95,
+        "inputMeterName": "5.4 mini Inp Dz 1M Tokens",
+        "cachedInputMeterName": "5.4 mini cd Inp Dz 1M Tokens",
+        "outputMeterName": "5.4 mini Opt Dz 1M Tokens",
+        "effectiveStartDate": "2026-03-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.4-nano",
+        "inputPrice": 0.22,
+        "cachedInputPrice": 0.022,
+        "outputPrice": 1.375,
+        "inputMeterName": "5.4 nano Inp Dz 1M Tokens",
+        "cachedInputMeterName": "5.4 nano cd Inp Dz 1M Tokens",
+        "outputMeterName": "5.4 nano Opt Dz 1M Tokens",
+        "effectiveStartDate": "2026-03-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.2",
+        "inputPrice": 1.925,
+        "cachedInputPrice": 0.1925,
+        "outputPrice": 15.4,
+        "inputMeterName": "GPT 5.2 inp Dz 1M Tokens",
+        "cachedInputMeterName": "GPT 5.2 cd inp Dz 1M Tokens",
+        "outputMeterName": "GPT 5.2 opt Dz 1M Tokens",
+        "effectiveStartDate": "2025-12-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5.1",
+        "inputPrice": 1.375,
+        "cachedInputPrice": 0.1375,
+        "outputPrice": 11,
+        "inputMeterName": "GPT 5.1 inp Dz 1M Tokens",
+        "cachedInputMeterName": "GPT 5.1 cd inp Dz 1M Tokens",
+        "outputMeterName": "GPT 5.1 opt Dz 1M Tokens",
+        "effectiveStartDate": "2025-11-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-5-mini",
+        "inputPrice": 0.275,
+        "cachedInputPrice": 0.0275,
+        "outputPrice": 2.2,
+        "inputMeterName": "GPT 5 Mini Inpt DZone 1M Tokens",
+        "cachedInputMeterName": "GPT 5 Mini cchd Inpt DZone 1M Tokens",
+        "outputMeterName": "GPT 5 Mini outpt DZone 1M Tokens",
+        "effectiveStartDate": "2025-08-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1",
+        "inputPrice": 2.2,
+        "cachedInputPrice": 0.55,
+        "outputPrice": 8.8,
+        "inputMeterName": "gpt 4.1 Inp Data Zone Tokens",
+        "cachedInputMeterName": "gpt 4.1 cached Inp Data Zone Tokens",
+        "outputMeterName": "gpt 4.1 Outp Data Zone Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1-mini",
+        "inputPrice": 0.44,
+        "cachedInputPrice": 0.11,
+        "outputPrice": 1.76,
+        "inputMeterName": "gpt 4.1 mini Inp Data Zone Tokens",
+        "cachedInputMeterName": "gpt 4.1 mini cached Inp DZone Tokens",
+        "outputMeterName": "gpt 4.1 mini Outp Data Zone Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1-nano",
+        "inputPrice": 0.11,
+        "cachedInputPrice": 0.028,
+        "outputPrice": 0.44,
+        "inputMeterName": "gpt 4.1 nano Inp Data Zone Tokens",
+        "cachedInputMeterName": "gpt 4.1 nano cached Inp DZone Tokens",
+        "outputMeterName": "gpt 4.1 nano Outp Data Zone Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4o",
+        "inputPrice": 5.5,
+        "cachedInputPrice": 1.375,
+        "outputPrice": 16.5,
+        "inputMeterName": "gpt 4o 0513 Input Data Zone Tokens",
+        "cachedInputMeterName": "gpt 4o 1120 cached Inp Data Zone Tokens",
+        "outputMeterName": "gpt 4o 0513 Output Data Zone Tokens",
+        "effectiveStartDate": "2025-09-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4o-mini",
+        "inputPrice": 0.165,
+        "cachedInputPrice": 0.083,
+        "outputPrice": 0.66,
+        "inputMeterName": "gpt 4o mini 0718 Inp Data Zone Tokens",
+        "cachedInputMeterName": "gpt 4o mini 0718 cached Inp Data Zone Tokens",
+        "outputMeterName": "gpt 4o mini 0718 Outp Data Zone Tokens",
+        "effectiveStartDate": "2024-10-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "o3",
+        "inputPrice": 2.2,
+        "cachedInputPrice": 0.55,
+        "outputPrice": 8.8,
+        "inputMeterName": "o3 0416 Inp Data Zone Tokens",
+        "cachedInputMeterName": "o3 0416 cached Inp Data Zone Tokens",
+        "outputMeterName": "o3 0416 Outp Data Zone Tokens",
+        "effectiveStartDate": "2025-06-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "o4-mini",
+        "inputPrice": 1.21,
+        "cachedInputPrice": 0.303,
+        "outputPrice": 4.84,
+        "inputMeterName": "o4-mini 0416 Inp Data Zone Tokens",
+        "cachedInputMeterName": "o4-mini 0416 cached Inp DataZone Tokens",
+        "outputMeterName": "o4-mini 0416 Outp Data Zone Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      }
+    ],
+    "regional": [
+      {
+        "modelId": "gpt-4.1",
+        "inputPrice": 2.2,
+        "cachedInputPrice": 0.55,
+        "outputPrice": 8.8,
+        "inputMeterName": "gpt 4.1 Inp regnl Tokens",
+        "cachedInputMeterName": "gpt 4.1 cached Inp regnl Tokens",
+        "outputMeterName": "gpt 4.1 Outp regnl Tokens",
+        "effectiveStartDate": "2025-11-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1-mini",
+        "inputPrice": 0.44,
+        "cachedInputPrice": 0.11,
+        "outputPrice": 1.76,
+        "inputMeterName": "gpt 4.1 mini Inp regnl Tokens",
+        "cachedInputMeterName": "gpt 4.1 mini cached Inp regnl Tokens",
+        "outputMeterName": "gpt 4.1 mini Outp regnl Tokens",
+        "effectiveStartDate": "2025-11-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4.1-nano",
+        "inputPrice": 0.11,
+        "cachedInputPrice": 0.028,
+        "outputPrice": 0.44,
+        "inputMeterName": "gpt 4.1 nano Inp regnl Tokens",
+        "cachedInputMeterName": "gpt 4.1 nano cached Inp regnl Tokens",
+        "outputMeterName": "gpt 4.1 nano Outp regnl Tokens",
+        "effectiveStartDate": "2025-04-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4o",
+        "inputPrice": 5.5,
+        "cachedInputPrice": 1.375,
+        "outputPrice": 16.5,
+        "inputMeterName": "gpt 4o 0513 Input regional Tokens",
+        "cachedInputMeterName": "gpt 4o 1120 cached Inp regnl Tokens",
+        "outputMeterName": "gpt 4o 0513 Output regional Tokens",
+        "effectiveStartDate": "2025-09-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "gpt-4o-mini",
+        "inputPrice": 0.165,
+        "cachedInputPrice": 0.083,
+        "outputPrice": 0.66,
+        "inputMeterName": "gpt-4o-mini-0718-Inp-regnl Tokens",
+        "cachedInputMeterName": "gpt 4o mini 0718 cached Inp regnl Tokens",
+        "outputMeterName": "gpt-4o-mini-0718-Outp-regnl Tokens",
+        "effectiveStartDate": "2024-10-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "o3",
+        "inputPrice": 2.2,
+        "cachedInputPrice": 0.55,
+        "outputPrice": 8.8,
+        "inputMeterName": "o3 0416 Inp regnl Tokens",
+        "cachedInputMeterName": "o3 0416 cached Inp regnl Tokens",
+        "outputMeterName": "o3 0416 Outp regnl Tokens",
+        "effectiveStartDate": "2025-06-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      },
+      {
+        "modelId": "o4-mini",
+        "inputPrice": 1.21,
+        "cachedInputPrice": 0.303,
+        "outputPrice": 4.84,
+        "inputMeterName": "o4-mini 0416 Inp regnl Tokens",
+        "cachedInputMeterName": "o4-mini 0416 cached Inp regnl Tokens",
+        "outputMeterName": "o4-mini 0416 Outp regnl Tokens",
+        "effectiveStartDate": "2025-11-01T00:00:00Z",
+        "cachedInputUsesInputRate": false
+      }
+    ]
+  }
+}

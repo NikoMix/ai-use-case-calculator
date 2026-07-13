@@ -3,7 +3,7 @@
 3:I[31713,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js","/ai-use-case-calculator/_next/static/chunks/2oy2l1lqcsqov.js","/ai-use-case-calculator/_next/static/chunks/0fqpinzlyfmgr.js"],"default"]
 6:I[97367,["/ai-use-case-calculator/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/ai-use-case-calculator/_next/static/chunks/2oy2l1lqcsqov.js","async":true}],["$","script","script-1",{"src":"/ai-use-case-calculator/_next/static/chunks/0fqpinzlyfmgr.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"RfwiRREaMz5tILZ9_VQK-"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/ai-use-case-calculator/_next/static/chunks/2oy2l1lqcsqov.js","async":true}],["$","script","script-1",{"src":"/ai-use-case-calculator/_next/static/chunks/0fqpinzlyfmgr.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"0Lc4x4ivA1W1H3uEuS3Tu"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
